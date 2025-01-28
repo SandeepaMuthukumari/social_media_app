@@ -2,13 +2,13 @@ import { Client, Account, Databases, Storage, Avatars } from "appwrite";
 
 // Hardcoded configuration (useful for debugging or testing)
 export const appwriteConfig = {
-  url: "http://localhost:5173",
+  url: "https://cloud.appwrite.io/v1",
   projectId: "6797189d001436634639",
   databaseId: "67971921000e6cdb46c3",
   storageId: "67971a08002d8f89b00f",
-  userCollectionId: "67971b4b003b6a41a6a7",
-  postCollectionId: "", // Replace this when you have the value
-  savesCollectionId: "", // Replace this when you have the value
+  userCollectionId: "6797b8e7000e215e11b6",
+  postCollectionId: "6797b7f800207771d0ce", // Replace this when you have the value
+  saveCollectionId: "6797b915002b3e391039", // Replace this when you have the value
 };
 
 export const client = new Client();
